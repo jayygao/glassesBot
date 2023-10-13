@@ -12,7 +12,7 @@ public class jtBot {
     public static void main(String[] args) throws LoginException {
         JDABuilder jdaBuilder = JDABuilder.createDefault("insert token");
 
-        jdaBuilder.setActivity(Activity.listening("BREN JOY"));
+        jdaBuilder.setActivity(Activity.listening("..?"));
         jdaBuilder.enableIntents(GatewayIntent.MESSAGE_CONTENT, GatewayIntent.GUILD_MESSAGES);
         jdaBuilder.addEventListeners(new ReadyEventListener(), new MessageEventListener(), new BotCommands());
         jdaBuilder.build();
