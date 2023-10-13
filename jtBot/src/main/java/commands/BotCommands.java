@@ -9,7 +9,7 @@ public class BotCommands extends ListenerAdapter {
         super.onSlashCommandInteraction(event);
 
         if (event.getName().equals("jtCounter")){
-            event.reply("Another days without JT... Day: ").queue();
+            event.reply("Another days without __... Day: ").queue();
         }
     }
 }
