@@ -15,22 +15,22 @@ public class MessageEventListener extends ListenerAdapter {
         List<String> jonglee = new ArrayList<>();
         List<String> bboy = new ArrayList<>();
 
-        xuxu.add("AHHH XIAO XUXU");
-        xuxu.add("WHERE EVIE AT");
-        xuxu.add("you weirdo!");
+        xuxu.add("msg1");
+        xuxu.add("green what u problem");
+        xuxu.add("silence");
 
-        laolao.add("LAO LAO MAO");
+        laolao.add("msg1");
         laolao.add("you gatekeeper");
-        laolao.add("WAAAA WAAAA");
+        laolao.add("randomize");
 
-        jonglee.add("JONG LEH KELLY JONG LEHHHH");
-        jonglee.add("WHERE KELLY AT");
-        jonglee.add("KELLY OR KELLY");
+        jonglee.add("msg1");
+        jonglee.add("Jong Lee");
+        jonglee.add("choices");
         jonglee.add("typical lil tecca enjoyer");
 
         bboy.add("insert random emoticon");
-        bboy.add("YO CAT IS NOT BLUE!!!");
-        bboy.add("yo mama lol");
+        bboy.add("update");
+        bboy.add("temp?");
 
 
         int val = (int)(Math.random()*(4 - 1) + 1);
