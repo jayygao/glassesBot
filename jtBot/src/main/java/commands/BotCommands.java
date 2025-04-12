@@ -8,8 +8,8 @@ public class BotCommands extends ListenerAdapter {
     public void onSlashCommandInteraction(SlashCommandInteractionEvent event) {
         super.onSlashCommandInteraction(event);
 
-        if (event.getName().equals("jtCounter")){
-            event.reply("Another days without __... Day: ").queue();
+        if (event.getName().equals("counter")){
+            event.reply("___ cheated again lmaoo:  ").queue();
         }
     }
 }
