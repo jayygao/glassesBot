@@ -8,7 +8,7 @@ import net.dv8tion.jda.api.requests.GatewayIntent;
 
 
 import javax.security.auth.login.LoginException;
-public class jtBot {
+public class glassesBot {
     public static void main(String[] args) throws LoginException {
         JDABuilder jdaBuilder = JDABuilder.createDefault("insert token");
 
@@ -17,6 +17,6 @@ public class jtBot {
         jdaBuilder.addEventListeners(new ReadyEventListener(), new MessageEventListener(), new BotCommands());
         jdaBuilder.build();
 
-        jdaBuilder.build().getGuildById("insert channel token").upsertCommand("jtCounter", "Another day without JT: ").queue();
+        jdaBuilder.build().getGuildById("insert channel token").upsertCommand("counter", "Another day ___ cheated: ").queue();
     }
 }
