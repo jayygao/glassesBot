@@ -1,2 +1,4 @@
-# jtBot
+# glassesBot
 I MADE THIS BOT OUT OF CURIOUSITY, PLEASE DON'T TAKE THIS REPO SERIOUSLY.
+
+Planning to add more summer 2025,
