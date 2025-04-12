@@ -8,7 +8,7 @@ public class ReadyEventListener implements EventListener {
     @Override
     public void onEvent(GenericEvent event) {
         if (event instanceof ReadyEvent){
-            System.out.println("THE JT BOT IS ON");
+            System.out.println("glasses online");
         }
     }
 }
